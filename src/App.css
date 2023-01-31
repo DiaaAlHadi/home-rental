@@ -276,12 +276,12 @@ body {
 
 /* home caruosel */
 .carousel .carousel-control-prev-icon {
-  background-image: url("../public/images/carousel-left.png");
+  background-image: url("/public/images/carousel-left.png");
   opacity: 1;
 }
 
 .carousel .carousel-control-next-icon {
-  background-image: url("../public/images/carousel-right.png");
+  background-image: url("/public/images/carousel-right.png");
 }
 
 .carousel-control-next {
