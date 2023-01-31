@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/github.io/home-rental/static/css/main.e965cf9b.css",
-    "main.js": "/github.io/home-rental/static/js/main.296e4648.js",
+    "main.js": "/github.io/home-rental/static/js/main.65ce4217.js",
     "static/js/787.d48c27f6.chunk.js": "/github.io/home-rental/static/js/787.d48c27f6.chunk.js",
     "static/media/property.jpg": "/github.io/home-rental/static/media/property.3b864f9d20961225ea3a.jpg",
     "static/media/slick.svg": "/github.io/home-rental/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -10,11 +10,11 @@
     "static/media/slick.woff": "/github.io/home-rental/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/github.io/home-rental/index.html",
     "main.e965cf9b.css.map": "/github.io/home-rental/static/css/main.e965cf9b.css.map",
-    "main.296e4648.js.map": "/github.io/home-rental/static/js/main.296e4648.js.map",
+    "main.65ce4217.js.map": "/github.io/home-rental/static/js/main.65ce4217.js.map",
     "787.d48c27f6.chunk.js.map": "/github.io/home-rental/static/js/787.d48c27f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e965cf9b.css",
-    "static/js/main.296e4648.js"
+    "static/js/main.65ce4217.js"
   ]
 }
