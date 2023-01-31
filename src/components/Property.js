@@ -15,7 +15,7 @@ export default function Property(props) {
                             <div className="media">
                                 <Link to="/properties/:id">
                                     <button className="btn bg-light main-color pe-3 opacity-custom">
-                                        View Home <img src="images/arrow-left-dark.png" alt="arrow" className='mb-1 ms-3 d-inline' />
+                                        View Home <img src="./images/arrow-left-dark.png" alt="arrow" className='mb-1 ms-3 d-inline' />
                                     </button>
                                 </Link>
                             </div>
@@ -31,15 +31,15 @@ export default function Property(props) {
                 <div className='d-flex ms-3'>
                     <Link to="/properties/:props.id" style={{display:props.more}}>
                         <button className="btn btn-sm bg-white main-color me-2 shadow" >
-                            <span className='view-text'>View Home <img src="images/arrow-left-dark.png" alt="arrow" className='mb-1 ms-1 view-arrow d-inline' /></span>
+                            <span className='view-text'>View Home <img src="./images/arrow-left-dark.png" alt="arrow" className='mb-1 ms-1 view-arrow d-inline' /></span>
                         </button>
                     </Link>
                     <div className='me-3 d-flex my-auto'>
-                        <img className="property-icon-bottom" src="images/bed.png" alt="bed" />
+                        <img className="property-icon-bottom" src="./images/bed.png" alt="bed" />
                         <div><span className='ms-1 '>2 Beds</span></div>
                     </div>
                     <div className='d-flex my-auto'>
-                        <img className="property-icon-bottom" src="images/bath.png" alt="bath" />
+                        <img className="property-icon-bottom" src="./images/bath.png" alt="bath" />
                         <div><span className='ms-1'>2 Baths</span></div>
                     </div>
                 </div>

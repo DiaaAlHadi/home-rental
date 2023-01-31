@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
       <div className="conatiner-fluid langBar  ps-md-5 ps-sm-2">
-        <img src="images/Path149.png" alt="" className="ms-lg-5 ms-md-3" />
+        <img src="./images/Path149.png" alt="" className="ms-lg-5 ms-md-3" />
         <button className="btn langBtn langText ms-2 text-light p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           <span className="d-inline-block me-1 text-light">Language
             <br />
@@ -25,7 +25,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light py-3 shadow-sm bg-white rounded">
         <div className="container-fluid mx-md-5">
           <Link className="navbar-brand ms-lg-4" to="/">
-            <img src="images/logo.png" alt="logo" />
+            <img src="./images/logo.png" alt="logo" />
             <span className="fw-bold ms-1">swa</span>
             <span className="fw-normal">Tech</span>
           </Link>

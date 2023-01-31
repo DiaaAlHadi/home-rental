@@ -5,7 +5,7 @@ export default function Maincarousel() {
     <Carousel>
       <Carousel.Item>
         <img
-          src="images/city.png"
+          src="./images/city.png"
           alt="city image"
           className="d-block w-100 h-25"
         />
@@ -24,7 +24,7 @@ export default function Maincarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="images/city.png"
+          src="./images/city.png"
           alt="city image"
           className="d-block w-100 h-25"
         />
@@ -43,7 +43,7 @@ export default function Maincarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="images/city.png"
+          src="./images/city.png"
           alt="city image"
           className="d-block w-100 h-25"
         />
@@ -62,7 +62,7 @@ export default function Maincarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="images/city.png"
+          src="./images/city.png"
           alt="city image"
           className="d-block w-100 h-25"
         />

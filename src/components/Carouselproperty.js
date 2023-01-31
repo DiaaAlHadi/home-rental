@@ -23,7 +23,7 @@ import Property from "./Property";
       ),
       prevArrow: (
         <div>
-          <div className="prev-slick-arrow"> <img src="images/carousel-left.png" alt="go right show"/></div>
+          <div className="prev-slick-arrow"> <img src="./images/carousel-left.png" alt="go right show"/></div>
         </div>
       ),
       responsive: [

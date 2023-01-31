@@ -24,7 +24,7 @@ export default function Rent() {
                                     />
                                 </div>
                                 <div className="col-auto">
-                                    <img src="images/search.png" alt="search" className="search-icon" />
+                                    <img src="./images/search.png" alt="search" className="search-icon" />
                                 </div>
                             </div>
                         </form>
@@ -36,7 +36,7 @@ export default function Rent() {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                <img src="images/rent-sign.png" alt="rent-sign" className='me-1 mb-1' />
+                                <img src="./images/rent-sign.png" alt="rent-sign" className='me-1 mb-1' />
                                 For Rent
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -65,7 +65,7 @@ export default function Rent() {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                <img src="images/price.png" alt="price" className='me-1 mb-1' />
+                                <img src="./images/price.png" alt="price" className='me-1 mb-1' />
                                 Price
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -94,7 +94,7 @@ export default function Rent() {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                <img src="images/price.png" alt="price" className='me-1 mb-1' />
+                                <img src="./images/price.png" alt="price" className='me-1 mb-1' />
                                 Price
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -123,7 +123,7 @@ export default function Rent() {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                <img src="images/price.png" alt="price" className='me-1 mb-1' />
+                                <img src="./images/price.png" alt="price" className='me-1 mb-1' />
                                 Price
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">

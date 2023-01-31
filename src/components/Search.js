@@ -42,7 +42,7 @@ export default function Search() {
           <form className="bg-white rounded-3  main-border ">
             <div className="p-2 row no-gutters align-items-center">
               <div className="col-auto">
-                <img src="images/search.png" alt="search" className="ms-2" />
+                <img src="./images/search.png" alt="search" className="ms-2" />
               </div>
               <div className="col ps-0">
                 <input
