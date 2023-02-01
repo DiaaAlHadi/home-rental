@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import property from '../accesst/images/property.jpg'
+import rightCarousel from '../accesst/images/carousel-right.png'
+import leftCarousel from '../accesst/images/carousel-left.png'
 import Property from "./Property";
 
 
@@ -18,12 +21,12 @@ import Property from "./Property";
       slidesPerRow: 1,
       nextArrow: (
         <div>
-          <div className="next-slick-arrow"> <img src="carousel-right.png" alt="go right show"/> </div>
+          <div className="next-slick-arrow"> <img src={rightCarousel} alt="go right show"/> </div>
         </div>
       ),
       prevArrow: (
         <div>
-          <div className="prev-slick-arrow"> <img src="./images/carousel-left.png" alt="go right show"/></div>
+          <div className="prev-slick-arrow"> <img src={leftCarousel} alt="go right show"/></div>
         </div>
       ),
       responsive: [
@@ -59,7 +62,7 @@ import Property from "./Property";
             <Property 
               minheight="17rem" 
               height="auto" 
-              img="url(images/property.jpg)" 
+              img={property}
               name="Baghdad" 
               tagshow="none" 
               overview="none"
@@ -68,17 +71,7 @@ import Property from "./Property";
             <Property 
               minheight="17rem" 
               height="auto" 
-              img="url(images/property.jpg)" 
-              name="Baghdad" 
-              tagshow="none" 
-              overview="none"
-            />
-          </div>
-          <div>
-            <Property 
-              minheight="17rem" 
-              height="auto" 
-              img="url(images/property.jpg)" 
+              img={property}
               name="Baghdad" 
               tagshow="none" 
               overview="none"
@@ -88,7 +81,7 @@ import Property from "./Property";
             <Property 
               minheight="17rem" 
               height="auto" 
-              img="url(images/property.jpg)" 
+              img={property}
               name="Baghdad" 
               tagshow="none" 
               overview="none"
@@ -98,7 +91,7 @@ import Property from "./Property";
             <Property 
               minheight="17rem" 
               height="auto" 
-              img="url(images/property.jpg)" 
+              img={property}
               name="Baghdad" 
               tagshow="none" 
               overview="none"
@@ -108,7 +101,17 @@ import Property from "./Property";
             <Property 
               minheight="17rem" 
               height="auto" 
-              img="url(images/property.jpg)" 
+              img={property}
+              name="Baghdad" 
+              tagshow="none" 
+              overview="none"
+            />
+          </div>
+          <div>
+            <Property 
+              minheight="17rem" 
+              height="auto" 
+              img={property}
               name="Baghdad" 
               tagshow="none" 
               overview="none"
@@ -119,7 +122,7 @@ import Property from "./Property";
             <Property 
               minheight="17rem" 
               height="auto" 
-              img="url(images/property.jpg)" 
+              img={property}
               name="Baghdad" 
               tagshow="none" 
               overview="none"
@@ -129,7 +132,7 @@ import Property from "./Property";
             <Property 
               minheight="17rem" 
               height="auto" 
-              img="url(images/property.jpg)" 
+              img={property}
               name="Baghdad" 
               tagshow="none" 
               overview="none"
@@ -139,7 +142,7 @@ import Property from "./Property";
             <Property 
               minheight="17rem" 
               height="auto" 
-              img="url(images/property.jpg)" 
+              img={property}
               name="Baghdad" 
               tagshow="none" 
               overview="none"
@@ -149,14 +152,14 @@ import Property from "./Property";
             <Property 
               minheight="17rem" 
               height="auto" 
-              img="url(images/property.jpg)" 
+              img={property}
               name="Baghdad" 
               tagshow="none" 
               overview="none"
             />
           </div>
           <div>
-            <Property minheight="17rem" height="553px" img="url(images/property.jpg)" name="Baghdad" tagshow="none" overview="none"/>
+            <Property minheight="17rem" height="553px" img={property}name="Baghdad" tagshow="none" overview="none"/>
           </div>
           
         </Slider>

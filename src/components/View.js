@@ -3,6 +3,27 @@ import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
 import Property from './Property';
 import ReactPlayer from 'react-player';
+import property from '../accesst/images/property.jpg'
+import owned from '../accesst/images/owned.png'
+import share from '../accesst/images/share.png'
+import bed from '../accesst/images/bed.png'
+import bath from '../accesst/images/baths.png'
+import wifi from '../accesst/images/wifi.png'
+import view from '../accesst/images/view.png'
+import heater from '../accesst/images/heater.png'
+import window from '../accesst/images/window.png'
+import seller from '../accesst/images/seller.png'
+import whatsapp from '../accesst/images/whatsapp.png'
+import map from '../accesst/images/map.png'
+import restaurant from '../accesst/images/restaurant.png'
+import hospital from '../accesst/images/hospital.png'
+import parking from '../accesst/images/parking.png'
+import school from '../accesst/images/school.png'
+import duplex from '../accesst/images/duplex.png'
+import roms from '../accesst/images/roms.png'
+import baths from '../accesst/images/baths.png'
+import air from '../accesst/images/air.png'
+import garage from '../accesst/images/carag.png'
 
 export default function View() {
     const [fullscreen, setFullscreen] = useState(true);
@@ -27,17 +48,17 @@ export default function View() {
                     <div className='col-12 d-lg-flex'>
                         <div className="col-lg-6">
                             <div className="col-12">
-                                <img className="w-100 rounded-4 mb-5 pointer" src="./images/property.jpg" alt="First slide" onClick={() => handleShow()} />
+                                <img className="w-100 rounded-4 mb-5 pointer" src={property} alt="First slide" onClick={() => handleShow()} />
                             </div>
                             <div className="row justify-content-between p-0">
                                 <div className="col-12 col-sm-6 col-lg-3">
-                                    <img className="w-100 rounded-3 mb-2 pointer" src="./images/property.jpg" alt="First slide" onClick={() => handleShow()} />
+                                    <img className="w-100 rounded-3 mb-2 pointer" src={property} alt="First slide" onClick={() => handleShow()} />
                                 </div>
                                 <div className="col-12 col-sm-6 col-lg-3">
-                                    <img className="w-100 rounded-3 mb-2 pointer" src="./images/property.jpg" alt="First slide" onClick={() => handleShow()} />
+                                    <img className="w-100 rounded-3 mb-2 pointer" src={property} alt="First slide" onClick={() => handleShow()} />
                                 </div>
                                 <div className="col-12 col-sm-6 col-lg-3 bg-image more-images">
-                                    <img className="w-100 rounded-3 p-0" src="./images/property.jpg" alt="First slide" />
+                                    <img className="w-100 rounded-3 p-0" src={property} alt="First slide" />
                                     <div className="mask pointer" onClick={() => handleShow()}>
                                         <div className="d-flex justify-content-center align-items-center h-100">
                                             <p className='text-white text-center p-0 m-0'>+5 Images</p>
@@ -52,13 +73,13 @@ export default function View() {
                                     <span className='fw-bold fs-3'>3,000$</span>
                                     <span className='fs-5 ms-2 border-right pe-3'>per month</span>
                                     <span className='ms-2'>
-                                        <img className='mb-2 me-1' src="./images/owned.png" alt="crown shape" />
+                                        <img className='mb-2 me-1' src={owned} alt="crown shape" />
                                         Owned By: IZAR
                                     </span>
                                 </div>
                                 <div className='ms-auto'>
                                     <button className='btn bg-white main-border p-2'>
-                                        <img className='me-2' src="./images/share.png" alt="share icone" />
+                                        <img className='me-2' src={share} alt="share icone" />
                                         Share
                                     </button>
                                 </div>
@@ -71,56 +92,56 @@ export default function View() {
                                         <Carousel.Item interval={1000}>
                                             <img
                                                 className="d-block w-100"
-                                                src="./images/property.jpg"
+                                                src={property}
                                                 alt="1 slide"
                                             />
                                         </Carousel.Item>
                                         <Carousel.Item interval={500}>
                                             <img
                                                 className="d-block w-100"
-                                                src="./images/property.jpg"
+                                                src={property}
                                                 alt="2 slide"
                                             />
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
                                                 className="d-block w-100"
-                                                src="./images/property.jpg"
+                                                src={property}
                                                 alt="3 slide"
                                             />
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
                                                 className="d-block w-100"
-                                                src="./images/property.jpg"
+                                                src={property}
                                                 alt="4 slide"
                                             />
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
                                                 className="d-block w-100"
-                                                src="./images/property.jpg"
+                                                src={property}
                                                 alt="5 slide"
                                             />
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
                                                 className="d-block w-100"
-                                                src="./images/property.jpg"
+                                                src={property}
                                                 alt="6 slide"
                                             />
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
                                                 className="d-block w-100"
-                                                src="./images/property.jpg"
+                                                src={property}
                                                 alt="7 slide"
                                             />
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
                                                 className="d-block w-100"
-                                                src="./images/property.jpg"
+                                                src={property}
                                                 alt="8 slide"
                                             />
                                         </Carousel.Item>
@@ -139,29 +160,29 @@ export default function View() {
                             <div className='mb-3'>
                                 <div className="row mb-4">
                                     <div className="col-4 d-flex align-items-center">
-                                        <img className='property-icon' src="./images/wifi.png" alt="wifi icon" />
+                                        <img className='property-icon' src={wifi} alt="wifi icon" />
                                         <span className='ms-2'>WIFI Enabled</span>
                                     </div>
                                     <div className="col-4 d-flex align-items-center">
-                                        <img className='property-icon' src="./images/view.png" alt="nice view icon" />
+                                        <img className='property-icon' src={view} alt="nice view icon" />
                                         <span className='ms-2'>Nice View</span>
                                     </div>
                                     <div className="col-4 d-flex align-items-center">
-                                        <img className='property-icon' src="./images/heater.png" alt="fire icon" />
+                                        <img className='property-icon' src={heater} alt="fire icon" />
                                         <span className='ms-2'>Heater</span>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-4 d-flex align-items-center">
-                                        <img className='property-icon' src="./images/bed.png" alt="bed icon" />
+                                        <img className='property-icon' src={bed} alt="bed icon" />
                                         <span className='ms-2'>3 BEDS</span>
                                     </div>
                                     <div className="col-4 d-flex align-items-center">
-                                        <img className='property-icon' src="./images/bath.png" alt="bath icon" />
+                                        <img className='property-icon' src={bath} alt="bath icon" />
                                         <span className='ms-2'>2 Baths</span>
                                     </div>
                                     <div className="col-4 d-flex align-items-center">
-                                        <img className='property-icon' src="./images/window.png" alt="window icon" />
+                                        <img className='property-icon' src={window} alt="window icon" />
                                         <span className='ms-2'>3 Windows</span>
                                     </div>
                                 </div>
@@ -169,13 +190,13 @@ export default function View() {
                             <div className='d-flex'>
                                 <div className="col-6 px-3 py-1 fw-bold">
                                     <button className='btn border px-3 w-100'>
-                                        <img className='contact-icon me-3' src="./images/seller.png" alt="contact icon" />
+                                        <img className='contact-icon me-3' src={seller} alt="contact icon" />
                                         seller details
                                     </button>
                                 </div>
                                 <div className="col-6 px-3 py-1 fw-bold">
                                     <button className='whatsapp-btn btn border px-3 w-100'>
-                                        <img className='whatsapp-icon me-3' src="./images/whatsapp.png" alt="whatsapp icon" />
+                                        <img className='whatsapp-icon me-3' src={whatsapp} alt="whatsapp icon" />
                                         seller whatsapp
                                     </button>
                                 </div>
@@ -195,10 +216,10 @@ export default function View() {
                                 <div className='border px-2 py-2 text-center map-container-n rounded-3 shadow'>
                                     <a href="https://www.google.com/maps/search/restaurants/@33.3086416,44.3435801,14z/data=!4m8!2m7!3m6!1srestaurants!2sBaghdad,+Iraq!3s0x15577f67a0a74193:0x9deda9d2a3b16f2c!4m2!1d44.3660671!2d33.315241">
                                         <div className="bg-image">
-                                            <img src="./images/map.png" alt="" className='map-property w-100 rounded-2' />
+                                            <img src={map} alt="" className='map-property w-100 rounded-2' />
                                             <div className="mask" >
                                                 <div className="d-flex justify-content-center align-items-center h-100">
-                                                    <img src="./images/restaurant.png" alt="" className='themp-img' />
+                                                    <img src={restaurant} alt="" className='themp-img' />
                                                 </div>
                                             </div>
                                         </div>
@@ -210,10 +231,10 @@ export default function View() {
                                 <div className='border px-2 py-2 text-center map-container-n rounded-3 shadow'>
                                     <a href="https://www.google.com/maps/search/hospital/@33.3086416,44.3435801,14z/data=!3m1!4b1!4m8!2m7!3m6!1shospital!2sBaghdad,+Iraq!3s0x15577f67a0a74193:0x9deda9d2a3b16f2c!4m2!1d44.3660671!2d33.315241">
                                         <div className="bg-image">
-                                            <img src="./images/map.png" alt="" className='map-property w-100 rounded-2' />
+                                            <img src={map} alt="" className='map-property w-100 rounded-2' />
                                             <div className="mask" >
                                                 <div className="d-flex justify-content-center align-items-center h-100">
-                                                    <img src="./images/hospital.png" alt="" className='themp-img' />
+                                                    <img src={hospital} alt="" className='themp-img' />
                                                 </div>
                                             </div>
                                         </div>
@@ -225,10 +246,10 @@ export default function View() {
                                 <div className='border px-2 py-2 text-center map-container-n rounded-3 shadow'>
                                     <a href="https://www.google.com/maps/search/parking/@33.3085724,44.3435801,14z/data=!3m1!4b1!4m8!2m7!3m6!1sparking!2sBaghdad,+Iraq!3s0x15577f67a0a74193:0x9deda9d2a3b16f2c!4m2!1d44.3660671!2d33.315241">
                                         <div className="bg-image">
-                                            <img src="./images/map.png" alt="" className='map-property w-100 rounded-2' />
+                                            <img src={map} alt="" className='map-property w-100 rounded-2' />
                                             <div className="mask" >
                                                 <div className="d-flex justify-content-center align-items-center h-100">
-                                                    <img src="./images/parking.png" alt="" className='themp-img' />
+                                                    <img src={parking} alt="" className='themp-img' />
                                                 </div>
                                             </div>
                                         </div>
@@ -240,10 +261,10 @@ export default function View() {
                                 <div className='border px-2 py-2 text-center map-container-n rounded-3 shadow'>
                                     <a href="https://www.google.com/maps/search/school/@33.3085031,44.3435802,14z/data=!3m1!4b1!4m7!2m6!3m5!2sBaghdad,+Iraq!3s0x15577f67a0a74193:0x9deda9d2a3b16f2c!4m2!1d44.3660671!2d33.315241">
                                         <div className="bg-image">
-                                            <img src="./images/map.png" alt="" className='map-property w-100 rounded-2' />
+                                            <img src={map} alt="" className='map-property w-100 rounded-2' />
                                             <div className="mask" >
                                                 <div className="d-flex justify-content-center align-items-center h-100">
-                                                    <img src="./images/school.png" alt="" className='themp-img' />
+                                                    <img src={school} alt="" className='themp-img' />
                                                 </div>
                                             </div>
                                         </div>
@@ -257,23 +278,23 @@ export default function View() {
                         <p className='fw-bold fs-5'>Features and services:</p>
                         <div className="row justify-content-evenly">
                             <div className="col-lg-2 col-md-3 col-sm-6 d-flex mb-2 justify-content-sm-between justify-content-md-start">
-                                <img src="./images/duplex.png" alt="duplex" className='feature-icons my-auto' />
+                                <img src={duplex} alt="duplex" className='feature-icons my-auto' />
                                 <div className='my-auto ms-3'><span className='feature-text'>Duplex</span></div>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-6 d-flex mb-2 justify-content-sm-between justify-content-md-start">
-                                <img src="./images/roms.png" alt="roms icon" className='feature-icons my-auto' />
+                                <img src={roms}alt="roms icon" className='feature-icons my-auto' />
                                 <div className='my-auto ms-2'><span className='feature-text'>6 bedrooms</span></div>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-6 d-flex mb-2 justify-content-sm-between justify-content-md-start">
-                                <img src="./images/baths.png" alt="bathtop" className='feature-icons my-auto' />
+                                <img src={baths}alt="bathtop" className='feature-icons my-auto' />
                                 <div className='my-auto ms-2'><span className='feature-text'>4 bathrooms</span></div>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-6 d-flex mb-2 justify-content-sm-between justify-content-md-start">
-                                <img src="./images/air.png" alt="air" className='feature-icons my-auto' />
+                                <img src={air}alt="air" className='feature-icons my-auto' />
                                 <div className='my-auto ms-2'><span className='feature-text'>Forced air</span></div>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-6 d-flex mb-2 justify-content-sm-between justify-content-md-start">
-                                <img src="./images/carag.png" alt="carag" className='feature-icons my-auto' />
+                                <img src={garage} alt="garage" className='feature-icons my-auto' />
                                 <div className='my-auto ms-2'><span className='feature-text'>2 Attached garage spaces</span></div>
                             </div>
                         </div>

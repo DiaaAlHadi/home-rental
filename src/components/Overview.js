@@ -1,4 +1,6 @@
 import React from 'react';
+import bath from '../accesst/images/bath.png'
+import bed from '../accesst/images/bed.png'
 export default function Overview() {
     return (
         <>
@@ -8,11 +10,11 @@ export default function Overview() {
             </div>
             <div className='d-flex ms-3'>
                 <div className='me-3'>
-                    <img src="./images/bed.png" alt="bed" />
+                    <img src={bed} alt="bed" />
                     <span className='ms-1'>2 Beds</span>
                 </div>
                 <div>
-                    <img src="./images/bath.png" alt="bath" />
+                    <img src={bath} alt="bath" />
                     <span className='ms-1'>2 Baths</span>
                 </div>
             </div>

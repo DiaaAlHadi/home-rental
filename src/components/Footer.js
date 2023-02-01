@@ -1,5 +1,12 @@
 import React from 'react';
-import ReactDOM from "react-dom/client";
+import facebook from '../accesst/images/facebook.png'
+import instagram from '../accesst/images/instagram.png'
+import telegram from '../accesst/images/telegram.png'
+import twitter from '../accesst/images/twitter.png'
+import googlePlay from '../accesst/images/googleplay.png'
+import appStore from '../accesst/images/appstore.png'
+import arrowRight from '../accesst/images/arrow-right.png'
+import whiteLogo from '../accesst/images/logoWhite.png'
 import { Link } from 'react-router-dom';
 function Footer() {
     return (
@@ -18,7 +25,7 @@ function Footer() {
                                         </div>
 
                                         <div className="col-auto">
-                                            <button className="btn btn-lg main-background-color text-light" type="submit">Done <img src="./images/arrow-right.png" alt="arrow" /></button>
+                                            <button className="btn btn-lg main-background-color text-light" type="submit">Done <img src={arrowRight} alt="arrow" /></button>
                                         </div>
 
                                     </div>
@@ -33,16 +40,16 @@ function Footer() {
                             <div className="col-lg-8 pt-5 mt-md-5 d-md-flex">
                                 <div className="col-lg-3 me-md-5">
                                     <div className='mt-3'>
-                                        <img src="./images/logoWhite.png" alt="logo" />
+                                        <img src={whiteLogo} alt="logo" />
                                         <span className="fs-4 fw-bold ms-1 text-light">swa</span>
                                         <span className="fs-4 fw-normal text-light">Tech</span>
                                         <hr className='custom-h w-25 d-lg-block d-none' />
                                         <p className=' custom-font-size text-light mt-3'>the most beautiful exclusive properties and luxury apartments</p>
                                         <div className='d-flex justify-content-around mb-3'>
-                                            <a href="https://www.facebook.com   "><img src="./images/facebook.png" alt="facebook page link" className='social-media' /></a>
-                                            <a href="https://twitter.com/"><img src="./images/twitter.png" alt="twitter page link" className='social-media' /></a>
-                                            <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt="instagram page link" className='social-media' /></a>
-                                            <a href="https://telegram.org/"><img src="./images/telegram.png" alt="telegra link" className='social-media' /></a>
+                                            <a href="https://www.facebook.com   "><img src={facebook} alt="facebook page link" className='social-media' /></a>
+                                            <a href="https://twitter.com/"><img src={twitter} alt="twitter page link" className='social-media' /></a>
+                                            <a href="https://www.instagram.com/"><img src={instagram} alt="instagram page link" className='social-media' /></a>
+                                            <a href="https://telegram.org/"><img src={telegram} alt="telegra link" className='social-media' /></a>
                                         </div>
                                         <hr className='custom-h w-100  d-sm-block d-md-none d-lg-none' />
 
@@ -72,8 +79,8 @@ function Footer() {
                                     <hr className='custom-h w-25 d-lg-block d-none' />
                                     <hr className='custom-h w-100 d-none d-sm-block d-md-none d-lg-none' />
                                     <div className="flex mb-sm-3">
-                                        <button className='btn btn-sm'><img src="./images/appstore.png" alt="app store download" /></button>
-                                        <button className="btn btn-sm"><img src="./images/googleplay.png" alt="googleplay donwload" /></button>
+                                        <button className='btn btn-sm'><img src={appStore} alt="app store download" /></button>
+                                        <button className="btn btn-sm"><img src={googlePlay} alt="googleplay donwload" /></button>
                                     </div>
                                 </div>
                             </div>
