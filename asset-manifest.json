@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/home-rental/static/css/main.7ff4da5d.css",
-    "main.js": "/home-rental/static/js/main.4f8dc6af.js",
-    "static/js/787.d48c27f6.chunk.js": "/home-rental/static/js/787.d48c27f6.chunk.js",
+    "main.js": "/home-rental/static/js/main.964edb8f.js",
+    "static/media/city.png": "/home-rental/static/media/city.559e0419c6eba24fff9a.png",
+    "static/media/map.png": "/home-rental/static/media/map.67f0065e2700a9f4a95a.png",
     "static/media/property.jpg": "/home-rental/static/media/property.3b864f9d20961225ea3a.jpg",
     "static/media/slick.svg": "/home-rental/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/home-rental/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -10,11 +11,10 @@
     "static/media/slick.woff": "/home-rental/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/home-rental/index.html",
     "main.7ff4da5d.css.map": "/home-rental/static/css/main.7ff4da5d.css.map",
-    "main.4f8dc6af.js.map": "/home-rental/static/js/main.4f8dc6af.js.map",
-    "787.d48c27f6.chunk.js.map": "/home-rental/static/js/787.d48c27f6.chunk.js.map"
+    "main.964edb8f.js.map": "/home-rental/static/js/main.964edb8f.js.map"
   },
   "entrypoints": [
     "static/css/main.7ff4da5d.css",
-    "static/js/main.4f8dc6af.js"
+    "static/js/main.964edb8f.js"
   ]
 }
